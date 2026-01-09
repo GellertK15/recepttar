@@ -1,26 +1,24 @@
-/* App.css vagy Navbar.css */
-
-/* Alap body stílus */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f8f9fa; /* világos háttér */
+  background-color: #f8f9fa; 
 }
 
-/* Navbar */
 .navbar {
-  background-color: #343a40; /* sötét szürke */
-  padding: 10px 20px;
+  background-color: #343a40;
+  padding: 10px 0;
+  text-align: center; 
 }
 
 .nav {
   list-style: none;
-  display: flex;
-  gap: 20px;
+  display: inline-flex; 
+  gap: 200px;
   margin: 0;
   padding: 0;
 }
+
 
 .nav-item .nav-link {
   color: white;
@@ -29,14 +27,13 @@ body {
 }
 
 .nav-item .nav-link.active {
-  color: #ffc107; /* sárga a kijelölt link */
+  color: #ffc107; 
 }
 
 .nav-item .nav-link:hover {
-  color: #adb5bd; /* világos szürke hover */
+  color: #adb5bd; 
 }
 
-/* Container az oldalakhoz */
 .container {
   max-width: 800px;
   margin: 20px auto;
@@ -46,7 +43,6 @@ body {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* Gombok */
 button.btn {
   padding: 8px 16px;
   font-size: 16px;
@@ -64,7 +60,6 @@ button.btn-primary:hover {
   background-color: #0056b3;
 }
 
-/* Kártyák (Receptek listája) */
 .card {
   border: 1px solid #dee2e6;
   border-radius: 8px;
@@ -80,7 +75,6 @@ button.btn-primary:hover {
   margin: 0;
 }
 
-/* Kereső input */
 input.form-control {
   width: 100%;
   padding: 8px;
